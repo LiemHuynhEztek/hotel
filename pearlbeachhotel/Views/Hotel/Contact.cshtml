@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html lang="hotel">
+@model pearlbeachhotel.Models.EmailModel
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hotel Template">
+    <meta name="keywords" content="Hotel, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pearl Beach Hotel</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Taviraj:300,400,500,600,700,800,900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="/css/linearicons.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section other-page">
+        <div class="container-fluid">
+            <div class="inner-header">
+                <div class="logo">
+                    <a href="Index"><img src="/img/logonb.png" alt="" style="HEIGHT: 110px; width: 110px; "></a>
+                </div>
+                <div style="padding-top: 30px;">
+                    <div class="top-widget">
+                        <div class="top-info">
+                            <img src="/img/placeholder.png" alt="">
+                            <span>Khu Biệt Thự Đại Phú Gia, Quy Nhơn Bình Định</span>
+                        </div>
+                        <div class="top-info phone-num">
+                            <img src="/img/phone.png" alt="">
+                            <span>0976474005</span>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <nav class="main-menu mobile-menu">
+                            <ul>
+                                 <li><a href="Index">Trang Chủ</a></li>
+                                <li><a href="Rooms">Phòng</a></li>
+                                <li><a href="Contact">Liên Hệ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="mobile-menu-wrap"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <div class="hero-slider">
+        <div class="slider-item">
+            <div class="single-slider-item set-bg" data-setbg="/img/slider-1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h1 style="text-align: center; color: #ae9548; text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000;">Pearl Beach Hotel</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    
+    <div class="hero-slider">
+        <div class="slider-item">
+            <div class="single-slider-item set-bg" data-setbg="/img/kt2.jpg">
+                <!-- <div class="container">
+                     <div class="row">
+                         <div class="col-sm">
+                             <h1 style="text-align: center; color: #ae9548; text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000;">Pearl Beach Hotel</h1>
+                         </div>
+                     </div>
+
+                 </div>-->
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section End -->
+    <!-- Contact Section Begin -->
+    <section class="contact-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-left">
+                        <div class="contact-information">
+                            <h2>Thông Tin Liên Hệ</h2>
+                            <ul>
+                                <li><img src="/img/placeholder-copy.png" alt=""> <span>Khu Biệt Thự Đại Phú Gia</span></li>
+                                <li><img src="/img/phone-copy.png" alt=""> <span>0976474005</span></li>
+                                <li><img src="/img/envelop.png" alt=""> <span>reception@pearlbeachhotel.com.com</span></li>
+                                <li><img src="/img/clock-copy.png" alt=""> <span>24/24</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="padding-top: 20px">
+                    <div class="contact-form">
+                        <h5>Đặt Phòng</h5>
+                        <form action="#" id="userForm">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="input-group">
+                                        <input id="name" type="text" placeholder="Họ Và Tên">
+                                        <img src="/img/edit.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="input-group">
+                                        <input id="email" type="email" placeholder="Email">
+                                        <img src="/img/envelop-copy.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="input-group phone-num">
+                                        <input id="phone" type="number" placeholder="Số Điện Thoại">
+                                        <img src="/img/phone-copy.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="message">
+                                        <p>Nội Dung</p>
+                                        <div class="textarea">
+                                            <textarea id="body"></textarea>
+                                            <img src="/img/speech-copy.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button type="submit" onclick="SendEmail()">Gửi</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-logo">
+                        <a href="#"><img style="HEIGHT: 100px; width: 100px;" src="/img/logonb.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-50">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h5>Vị Trí</h5>
+                        <div class="widget-text">
+                            <i class="lnr lnr-map-marker"></i>
+                            <p>Khu Biệt Thự Đại Phú Gia, Quy Nhơn Bình Định</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h5>Số Điện Thoại</h5>
+                        <div class="widget-text">
+                            <i class="lnr lnr-phone-handset"></i>
+                            <p>0976474005</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h5>Email</h5>
+                        <div class="widget-text">
+                            <i class="lnr lnr-envelope"></i>
+                            <p>info@pearlbeachhotel.com.vn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h5>Người Đại Diện</h5>
+                        <div class="widget-text">
+                            <i class="lnr lnr-user"></i>
+                            <p>Ông Trương Văn Hòa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/jquery.nice-select.min.js"></script>
+    <script src="/js/jquery.slicknav.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+        function SendEmail()
+        {
+            name = $( "#name" ).val();
+            email = $( "#email" ).val();
+            phoneNumber = $( "#phone" ).val();
+            body = $( "#body" ).val();
+            $.ajax({
+                type: 'get',
+                url: '@Url.Action("SendEmail", "Hotel")?name='+ name + '&email=' + email + '&phoneNumber=' + phoneNumber + '&body=' + body,
+                success: function(result) {
+                    alert('Gửi Email Thành Công');
+                },
+                error: function(jqxhr, status, exception) {
+                    alert('Gửi Email Không Thành Công');
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
